@@ -4,6 +4,8 @@
 
 > © 2026 修哥 (hsiu) — 採 [MIT License](LICENSE) 開源，歡迎自由下載、修改、散佈。
 
+> 🌐 **線上試用**：https://hsiu1214.github.io/ai-assistant-launcher/
+
 ## ✨ 特色
 
 - **📦 單檔零相依**：整個 App 就是一個 `index.html`，不用安裝、不用伺服器、離線可開。
