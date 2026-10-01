@@ -17,6 +17,7 @@
 - **⭐ 一鍵設預設 / 還原**：任一 AI 可設為啟動預設；誤刪可一鍵還原內建清單。
 - **🌙 深色模式**：跟隨手機系統自動切換外殼配色。
 - **🔒 隱私本機化**：所有設定存於瀏覽器 localStorage，不會上傳。
+- **📱 PWA 可安裝**：附 `manifest.webmanifest` + Service Worker，手機/電腦「加入主畫面」後全螢幕無網址列，外殼可離線開啟。
 
 ## 📲 使用方式
 
@@ -26,13 +27,22 @@
 
 > 💡 想像 App 一樣全螢幕無網址列？在瀏覽器選單選「**加入主畫面 / Add to Home Screen**」，桌面就會多一顆圖示。
 
-## 🤖 內建 AI 清單（28 項）
+## 🤖 內建 AI 清單（41 項）
 
 **國內（可框內顯示）**：元寶、豆包、Kimi、文心一言、通义千问、智谱清言、讯飞星火、天工AI、百川智能、腾讯混元、海螺AI、跃问、MiniMax 等 13 項
 
 **國外（部分站點禁止內嵌，會顯示提示卡並提供「在瀏覽器開啟」）**：ChatGPT、Gemini、Claude、DeepSeek、Copilot、Grok、Perplexity、Meta AI、Mistral、Poe、Character.AI、HuggingChat、You.com、Pi、Qwen 等 15 項
 
 > ⚠️ 國外多數 AI 官網（ChatGPT / Gemini / Claude 等）設定 `X-Frame-Options` 禁止被 iframe 內嵌，這是瀏覽器安全機制，非本程式限制。該類站點會顯示提示卡，點「在瀏覽器開啟」即可新分頁開啟。
+
+## 🎨 生圖 AI（13 項，名稱標註「(生圖)」）
+
+這批站點走「**在瀏覽器開啟**」分支（生圖 UI 較複雜，多數禁止 iframe 內嵌，框內易破版；用瀏覽器開啟功能最完整）：
+
+- **國內**：即夢 AI、可靈 AI、文心一格、海藝 AI、美圖 WHEE
+- **國外**：Leonardo、Ideogram、Adobe Firefly、Stable Diffusion、Playground、Recraft、Bing 圖像、Craiyon
+
+> 已排除完全付費、無免費額度的 Midjourney，以及無公開網址的妙鴨相機。與現有重複網址的國內站（豆包、通義、訊飛、元寶/混元）不重複加入。
 
 ## 🛠 技術規格
 
